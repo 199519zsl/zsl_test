@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    
+    <servlet-name>UserLoginServlet</servlet-name>
+    <servlet-class>com.product.servlet.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    
+    <servlet-name>AddUserServlet</servlet-name>
+    <servlet-class>com.product.servlet.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    
+    <servlet-name>UserListServlet</servlet-name>
+    <servlet-class>com.product.servlet.UserListServlet</servlet-class>
+  </servlet>
+  <servlet>
+   
+    <servlet-name>CheckServlet</servlet-name>
+    <servlet-class>com.product.servlet.CheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyuserServlet</servlet-name>
+    <servlet-class>com.product.servlet.ModifyuserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteUserServlet</servlet-name>
+    <servlet-class>com.product.servlet.deleteUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddCusServlet</servlet-name>
+    <servlet-class>com.product.servlet.AddCusServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerServlet</servlet-name>
+    <servlet-class>com.product.servlet.CustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifycusServlet</servlet-name>
+    <servlet-class>com.product.servlet.ModifycusServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteCusServlet</servlet-name>
+    <servlet-class>com.product.servlet.deleteCusServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddSupServlet</servlet-name>
+    <servlet-class>com.product.servlet.AddSupServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteSupServlet</servlet-name>
+    <servlet-class>com.product.servlet.deleteSupServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifySupServlet</servlet-name>
+    <servlet-class>com.product.servlet.ModifySupServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>selectCusServlet</servlet-name>
+    <servlet-class>com.product.servlet.selectCusServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.product.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SupplierServlet</servlet-name>
+    <servlet-class>com.product.servlet.SupplierServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <servlet-name>AddBuyInSrevlet</servlet-name>
+    <servlet-class>com.product.servlet.AddBuyInSrevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteBuyInServlet</servlet-name>
+    <servlet-class>com.product.servlet.DeleteBuyInServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyBuyInServlet</servlet-name>
+    <servlet-class>com.product.servlet.ModifyBuyInServlet</servlet-class>
+  </servlet>
+
+ <servlet>
+    <servlet-name>AddgoodsServlet</servlet-name>
+    <servlet-class>com.product.servlet.AddGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GoodsListServlet</servlet-name>
+    <servlet-class>com.product.servlet.GoodsListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelGoodsServlet</servlet-name>
+    <servlet-class>com.product.servlet.DelGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyGoodsServlet</servlet-name>
+    <servlet-class>com.product.servlet.ModifyGoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InHouseServlet</servlet-name>
+    <servlet-class>com.product.servlet.InHouseServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>GoodsServlet</servlet-name>
+    <servlet-class>com.product.servlet.GoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InHouseListServlet</servlet-name>
+    <servlet-class>com.product.servlet.InHouseListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyPassServlet</servlet-name>
+    <servlet-class>com.product.servlet.ModifyPassServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>OutHouseServlet</servlet-name>
+    <servlet-class>com.product.servlet.OutHouseServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>OutHouseListServlet</servlet-name>
+    <servlet-class>com.product.servlet.OutHouseListServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+ 
+  <servlet-mapping>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <url-pattern>/UserLoginServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUserServlet</servlet-name>
+    <url-pattern>/adduser.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserListServlet</servlet-name>
+    <url-pattern>/UserList.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckServlet</servlet-name>
+    <url-pattern>/CheckServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyuserServlet</servlet-name>
+    <url-pattern>/Modifyuser.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteUserServlet</servlet-name>
+    <url-pattern>/deleteUserServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCusServlet</servlet-name>
+    <url-pattern>/AddCusServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerServlet</servlet-name>
+    <url-pattern>/CustomerServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifycusServlet</servlet-name>
+    <url-pattern>/ModifycusServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteCusServlet</servlet-name>
+    <url-pattern>/deleteCusServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddSupServlet</servlet-name>
+    <url-pattern>/AddSupServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteSupServlet</servlet-name>
+    <url-pattern>/deleteSupServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifySupServlet</servlet-name>
+    <url-pattern>/ModifySupServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectCusServlet</servlet-name>
+    <url-pattern>/selectCusServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SupplierServlet</servlet-name>
+    <url-pattern>/SupplierServlet.do</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+
+    <servlet-mapping>
+    <servlet-name>AddgoodsServlet</servlet-name>
+    <url-pattern>/addGoods.do</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+    <servlet-name>DelGoodsServlet</servlet-name>
+    <url-pattern>/delgoods.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyGoodsServlet</servlet-name>
+    <url-pattern>/modifyGoods.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AddBuyInSrevlet</servlet-name>
+    <url-pattern>/addbuyin.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteBuyInServlet</servlet-name>
+    <url-pattern>/delbuyin.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyBuyInServlet</servlet-name>
+    <url-pattern>/modifybuyin.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InHouseServlet</servlet-name>
+    <url-pattern>/InHouse.do</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>GoodsServlet</servlet-name>
+    <url-pattern>/goodsServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InHouseListServlet</servlet-name>
+    <url-pattern>/InHouseList.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyPassServlet</servlet-name>
+    <url-pattern>/servlet/modifyPass.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>OutHouseServlet</servlet-name>
+    <url-pattern>/OutHouse.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>OutHouseListServlet</servlet-name>
+    <url-pattern>/OutHouseList.do</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
